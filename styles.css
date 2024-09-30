@@ -96,3 +96,42 @@ section img {
     }
 }
 
+.div4 {
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.div4 h3 {
+    font-size: 28px;
+}
+
+.div4 form {
+    margin-top: 10px;
+}
+
+.div4 label {
+    font-size: 20px;
+}
+
+.div4 input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.div4 input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #182b49;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.div4 input[type="submit"]:hover {
+    background-color: #3c4a69;
+}
+
+
