@@ -10,6 +10,7 @@ ul {
   overflow: hidden;
   position: sticky;
   top: 0;
+  background-color: darkgrey;
 }
 
 li {
@@ -65,5 +66,33 @@ li a:hover {
     text-align: center;
     font-size: 18px;
     box-sizing: border-box;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    ul {
+        display: none;
+    }
+
+    img.logo {
+        max-width: 75%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
 }
 
