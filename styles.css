@@ -124,7 +124,7 @@ section img {
 .div4 input[type="submit"] {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #182b49;
+    background-color: grey;
     color: white;
     border: none;
     cursor: pointer;
